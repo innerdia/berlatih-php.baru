@@ -44,7 +44,9 @@ function cmp($a, $b) {
 }
  
 uasort($skor, 'cmp');
+echo "<pre>";
 print_r($skor); 
+echo "</pre>"; 
 ?>
 </body>
 </html>
